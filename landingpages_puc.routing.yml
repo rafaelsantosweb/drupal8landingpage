@@ -1,0 +1,8 @@
+landingpages_puc.page_front:
+  path: '/inicio'
+  defaults:
+    _controller:  '\Drupal\landingpages_puc\Controller\landingpagesController::front'
+    _title:  'Home'
+  requirements:
+    _permission:  'access content'
+

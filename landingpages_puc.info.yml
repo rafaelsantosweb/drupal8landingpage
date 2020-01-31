@@ -1,0 +1,5 @@
+name: LandingPages PUC
+type: module
+description: 'Módulo customizado para implementar páginas personalizadas no portal PUC-SP'
+package: Custom
+core: 8.x

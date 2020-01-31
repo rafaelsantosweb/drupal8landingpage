@@ -1,0 +1,26 @@
+<?php
+/**
+* @file
+* A description of what your module does.
+*/
+/**
+ * Callback function to get the data from REST API
+ 
+ */
+	function landingpages_puc_views_pre_render($view){
+	
+		if ($view->id() == 'graduacao' && $view->current_display == 'view_graduacao_campus_turnos') {
+			//kint($view->field['field_area']);
+			// foreach($view->result as $value){
+			//	kint($value);
+				// $nid = $value->node_field_data_node__field_turnos_campus_nid;
+				// $node = \Drupal::entityManager()->getStorage('node')->load($nid)->getTitle();
+			//	$node = $value->_entity->getTitle();
+				// print $node;
+			
+			// }
+		}
+	}
+
+?>
+
